@@ -1,18 +1,15 @@
 ## Visual do Aplicativo
 
 <p align="center">
-   
-  <img ![image](https://github.com/user-attachments/assets/844e44ab-1833-4858-aa0d-2e7c48276d9b)
-
-
-
-
-  <img ![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
-
+  <img src="https://github.com/user-attachments/assets/844e44ab-1833-4858-aa0d-2e7c48276d9b" alt="Android" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec" alt="iOS" width="250"/>
+</p>
 
 <p align="center">
   <b>Android (esquerda) | iOS (direita)</b>
 </p>
+
 
  FuncionalidadesAdd commentMore actions
 
