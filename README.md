@@ -1,11 +1,12 @@
 ## Visual do Aplicativo
 
 <p align="center">
-  <img  
+  <img ![image] (https://github.com/user-attachments/assets/4eeb5732-78ec-4bd9-8fad-4709e64c2595)
+
+
 
   <img ![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
-![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
-![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
+
 
 <p align="center">
   <b>Android (esquerda) | iOS (direita)</b>
