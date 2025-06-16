@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+ FuncionalidadesAdd commentMore actions
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✅ Geração de senhas seguras e aleatórias com tamanho customizável.
 
-## Get started
+✅ Cópia da senha para a área de transferência.
 
-1. Install dependencies
+✅ Salvamento seguro de senhas localmente, com `expo-secure-store`.
 
-   ```bash
-   npm install
-   ```
+✅ Visualização de senhas salvas.
 
-2. Start the app
+✅ Interface estilizada com `expo-linear-gradient`.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📱 Tecnologias Utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* [Expo](https://expo.dev/)
+* [React Native](https://reactnative.dev/)
+* [expo-secure-store](https://docs.expo.dev/versions/latest/sdk/securestore/)
+* [expo-clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
+* [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+ Como usar
 
-When you're ready, run:
+1. Instale as dependências
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Execute o projeto
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Você poderá abrir o aplicativo em:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Um emulador Android ou iOS.
+* Dispositivo físico usando o aplicativo [Expo Go](https://expo.dev/go).
+* Navegador, usando a versão web do Expo.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+ Como funciona
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Digite um nome descritivo para a senha (ex.: "Email", "Banco").
+2. Escolha o comprimento da senha.
+3. Toque em "Gerar Senha" para criar uma senha aleatória.
+4. Opções disponíveis após a geração:
+
+   * **Copiar Senha**: envia a senha para a área de transferência.
+   * **Salvar Senha**: armazena a senha de forma segura no dispositivo.
+5. Visualize as senhas salvas na lista abaixo.
+
+---
+
+ Estrutura de arquivos
+
+* `App.js`: Tela principal e lógica de geração, cópia e salvamento de senhas.
+* `package.json`: Dependências e scripts.
+* `app.json`: Configurações do Expo.
+* `eslint.config.js`: Configuração de linting.
+* `tsconfig.json`: Configurações do TypeScript.
+* `.gitignore`: Arquivos e pastas ignoradas pelo Git.
+
+---
+
+ Scripts disponíveis
+
+* `npm start`: Inicia o Expo.
+* `npm run android`: Executa no emulador Android.
+* `npm run ios`: Executa no simulador iOS.
+* `npm run web`: Executa no navegador.
+* `npm run lint`: Executa o linter.
+* `npm run reset-project`: Reseta o projeto para o estado inicial.
+
+---
+
+ Pré-requisitos
+
+* Node.js e npm instalados.
+* Expo CLI (`npm install -g expo-cli`).
+
+---
+
+Segurança
+
+As senhas são armazenadas de forma **local e segura** utilizando `expo-secure-store`, garantindo que somente o aplicativo possa acessar as informações salvas.
+
+---
