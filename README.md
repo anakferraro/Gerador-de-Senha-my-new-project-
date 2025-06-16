@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>Android (direita) | iOS (esquerda)</b>
+  <b>Android (esquerda) | iOS (direita)</b>
 </p>
 
 
