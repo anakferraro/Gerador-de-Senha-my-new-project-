@@ -1,10 +1,14 @@
 ## Visual do Aplicativo
 
-### Android
-<img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/caminho/para/3068057f-f3a3-4f79-a124-aa24d568eab2.png" alt="Android App Screenshot" width="300"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/android.png" alt="Android" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/ios.png" alt="iOS" width="250"/>
+</p>
 
-### iOS
-<img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/caminho/para/ffcababe-d6f3-4777-a4e8-11f7e0dd823a.png" alt="iOS App Screenshot" width="300"/>
+<p align="center">
+  <b>Android (esquerda) | iOS (direita)</b>
+</p>
 
  FuncionalidadesAdd commentMore actions
 
