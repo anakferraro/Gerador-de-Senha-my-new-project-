@@ -1,10 +1,13 @@
 ## Visual do Aplicativo
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/android.png" alt="Android" width="250"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/assets/ios.png" alt="iOS" width="250"/>
-</p>
+  <img ![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
+![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
+![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
+
+  <img ![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
+![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
+![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
 
 <p align="center">
   <b>Android (esquerda) | iOS (direita)</b>
