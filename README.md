@@ -1,9 +1,7 @@
 ## Visual do Aplicativo
 
 <p align="center">
-  <img ![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
-![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
-![image](https://github.com/user-attachments/assets/fa708a22-1001-4944-96d9-a93c0eaa2c93)
+  <img  
 
   <img ![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
 ![image](https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec)
