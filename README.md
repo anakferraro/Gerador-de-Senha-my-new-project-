@@ -1,106 +1,50 @@
-## Visual do Aplicativo
+# Welcome to your Expo app 👋
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/afe757e0-9613-4888-a42c-a72c012c5aec" alt="iOS" width="250"/>
-  <img src="https://github.com/user-attachments/assets/844e44ab-1833-4858-aa0d-2e7c48276d9b" alt="Android" width="250"/>
-  &nbsp;&nbsp;&nbsp;
-</p>
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-<p align="center">
-  <b>Android (esquerda) | iOS (direita)</b>
-</p>
+## Get started
 
+1. Install dependencies
 
- FuncionalidadesAdd commentMore actions
+   ```bash
+   npm install
+   ```
 
-✅ Geração de senhas seguras e aleatórias com tamanho customizável.
+2. Start the app
 
-✅ Cópia da senha para a área de transferência.
+   ```bash
+   npx expo start
+   ```
 
-✅ Salvamento seguro de senhas localmente, com `expo-secure-store`.
+In the output, you'll find options to open the app in a
 
-✅ Visualização de senhas salvas.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-✅ Interface estilizada com `expo-linear-gradient`.
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
----
+## Get a fresh project
 
-## 📱 Tecnologias Utilizadas
-
-* [Expo](https://expo.dev/)
-* [React Native](https://reactnative.dev/)
-* [expo-secure-store](https://docs.expo.dev/versions/latest/sdk/securestore/)
-* [expo-clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
-* [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
-
----
-
- Como usar
-
-1. Instale as dependências
+When you're ready, run:
 
 ```bash
-npm install
+npm run reset-project
 ```
 
-2. Execute o projeto
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```bash
-npx expo start
-```
+## Learn more
 
-Você poderá abrir o aplicativo em:
+To learn more about developing your project with Expo, look at the following resources:
 
-* Um emulador Android ou iOS.
-* Dispositivo físico usando o aplicativo [Expo Go](https://expo.dev/go).
-* Navegador, usando a versão web do Expo.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
----
+## Join the community
 
- Como funciona
+Join our community of developers creating universal apps.
 
-1. Digite um nome descritivo para a senha (ex.: "Email", "Banco").
-2. Escolha o comprimento da senha.
-3. Toque em "Gerar Senha" para criar uma senha aleatória.
-4. Opções disponíveis após a geração:
-
-   * **Copiar Senha**: envia a senha para a área de transferência.
-   * **Salvar Senha**: armazena a senha de forma segura no dispositivo.
-5. Visualize as senhas salvas na lista abaixo.
-
----
-
- Estrutura de arquivos
-
-* `App.js`: Tela principal e lógica de geração, cópia e salvamento de senhas.
-* `package.json`: Dependências e scripts.
-* `app.json`: Configurações do Expo.
-* `eslint.config.js`: Configuração de linting.
-* `tsconfig.json`: Configurações do TypeScript.
-* `.gitignore`: Arquivos e pastas ignoradas pelo Git.
-
----
-
- Scripts disponíveis
-
-* `npm start`: Inicia o Expo.
-* `npm run android`: Executa no emulador Android.
-* `npm run ios`: Executa no simulador iOS.
-* `npm run web`: Executa no navegador.
-* `npm run lint`: Executa o linter.
-* `npm run reset-project`: Reseta o projeto para o estado inicial.
-
----
-
- Pré-requisitos
-
-* Node.js e npm instalados.
-* Expo CLI (`npm install -g expo-cli`).
-
----
-
-Segurança
-
-As senhas são armazenadas de forma **local e segura** utilizando `expo-secure-store`, garantindo que somente o aplicativo possa acessar as informações salvas.
-
----
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
