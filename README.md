@@ -1,3 +1,8 @@
+
+# Gerador de Senhas Seguras
+
+Aplicativo mobile feito com Expo e React Native para gerar, salvar e visualizar senhas de forma segura.
+
 ## Visual do Aplicativo
 
 <p align="center">
@@ -10,40 +15,52 @@
   <b>Android (esquerda) | iOS (direita)</b>
 </p>
 
+---
 
- FuncionalidadesAdd commentMore actions
+## Funcionalidades
 
-✅ Geração de senhas seguras e aleatórias com tamanho customizável.
-
-✅ Cópia da senha para a área de transferência.
-
-✅ Salvamento seguro de senhas localmente, com `expo-secure-store`.
-
-✅ Visualização de senhas salvas.
-
-✅ Interface estilizada com `expo-linear-gradient`.
+- Geração de senhas seguras e aleatórias com tamanho customizável.
+- Cópia da senha para a área de transferência.
+- Salvamento seguro de senhas localmente, com `expo-secure-store`.
+- Visualização de senhas salvas.
+- Interface estilizada com `expo-linear-gradient`.
 
 ---
 
-## 📱 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-* [Expo](https://expo.dev/)
-* [React Native](https://reactnative.dev/)
-* [expo-secure-store](https://docs.expo.dev/versions/latest/sdk/securestore/)
-* [expo-clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
-* [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [expo-secure-store](https://docs.expo.dev/versions/latest/sdk/securestore/)
+- [expo-clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
+- [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
 
 ---
 
- Como usar
+## Como testar o aplicativo sem clonar o repositório
 
-1. Instale as dependências
+Este aplicativo está publicado no Expo e pode ser executado em qualquer dispositivo ou emulador, sem necessidade de instalação local.
+
+### Acesso pelo celular (Android ou iOS)
+
+1. Instale o app [Expo Go](https://expo.dev/go)
+2. Abra o Expo Go e escaneie o QR Code gerado pela publicação  
+   ou acesse diretamente o link abaixo:
+
+**[Abrir no Expo Go](https://expo.dev/@SEU_USUARIO/SEU_APP)**  
+*Substitua esse link pelo link real após rodar `npx expo publish`.*
+
+---
+
+## Como usar
+
+1. Instale as dependências:
 
 ```bash
 npm install
-```
+````
 
-2. Execute o projeto
+2. Execute o projeto:
 
 ```bash
 npx expo start
@@ -57,20 +74,20 @@ Você poderá abrir o aplicativo em:
 
 ---
 
- Como funciona
+Como funciona
 
 1. Digite um nome descritivo para a senha (ex.: "Email", "Banco").
 2. Escolha o comprimento da senha.
 3. Toque em "Gerar Senha" para criar uma senha aleatória.
 4. Opções disponíveis após a geração:
 
-   * **Copiar Senha**: envia a senha para a área de transferência.
-   * **Salvar Senha**: armazena a senha de forma segura no dispositivo.
+   * Copiar Senha: envia a senha para a área de transferência.
+   * Salvar Senha: armazena a senha de forma segura no dispositivo.
 5. Visualize as senhas salvas na lista abaixo.
 
 ---
 
- Estrutura de arquivos
+Estrutura de arquivos
 
 * `App.js`: Tela principal e lógica de geração, cópia e salvamento de senhas.
 * `package.json`: Dependências e scripts.
@@ -81,7 +98,7 @@ Você poderá abrir o aplicativo em:
 
 ---
 
- Scripts disponíveis
+Scripts disponíveis
 
 * `npm start`: Inicia o Expo.
 * `npm run android`: Executa no emulador Android.
@@ -92,15 +109,23 @@ Você poderá abrir o aplicativo em:
 
 ---
 
- Pré-requisitos
+Pré-requisitos
 
 * Node.js e npm instalados.
-* Expo CLI (`npm install -g expo-cli`).
+* Expo CLI instalado globalmente:
+
+```bash
+npm install -g expo-cli
+```
 
 ---
 
 Segurança
 
-As senhas são armazenadas de forma **local e segura** utilizando `expo-secure-store`, garantindo que somente o aplicativo possa acessar as informações salvas.
+As senhas são armazenadas de forma local e segura utilizando `expo-secure-store`, garantindo que somente o aplicativo possa acessar as informações salvas.
+
+```
 
 ---
+
+
