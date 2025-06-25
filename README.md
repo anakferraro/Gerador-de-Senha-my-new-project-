@@ -74,7 +74,7 @@ Você poderá abrir o aplicativo em:
 
 ---
 
-Como funciona
+## Como funciona
 
 1. Digite um nome descritivo para a senha (ex.: "Email", "Banco").
 2. Escolha o comprimento da senha.
@@ -87,7 +87,7 @@ Como funciona
 
 ---
 
-Estrutura de arquivos
+## Estrutura de arquivos
 
 * `App.js`: Tela principal e lógica de geração, cópia e salvamento de senhas.
 * `package.json`: Dependências e scripts.
@@ -98,7 +98,7 @@ Estrutura de arquivos
 
 ---
 
-Scripts disponíveis
+## Scripts disponíveis
 
 * `npm start`: Inicia o Expo.
 * `npm run android`: Executa no emulador Android.
@@ -109,7 +109,7 @@ Scripts disponíveis
 
 ---
 
-Pré-requisitos
+## Pré-requisitos
 
 * Node.js e npm instalados.
 * Expo CLI instalado globalmente:
@@ -120,7 +120,7 @@ npm install -g expo-cli
 
 ---
 
-Segurança
+## Segurança
 
 As senhas são armazenadas de forma local e segura utilizando `expo-secure-store`, garantindo que somente o aplicativo possa acessar as informações salvas.
 
