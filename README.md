@@ -17,6 +17,14 @@ Aplicativo mobile feito com Expo e React Native para gerar, salvar e visualizar 
 
 ---
 
+## Instalar no Android
+
+Você pode baixar e instalar o aplicativo diretamente no seu celular Android:
+
+ **[Baixar APK para Android](https://expo.dev/accounts/anakferraro/projects/my-new-project/builds/5666c5cb-33a6-4d6d-9460-a7859a0f3651)**
+
+---
+
 ## Funcionalidades
 
 - Geração de senhas seguras e aleatórias com tamanho customizável.
