@@ -77,6 +77,8 @@ Você poderá abrir o aplicativo em:
 
 * Um emulador Android ou iOS.
 * Dispositivo físico usando o aplicativo [Expo Go](https://expo.dev/go).
+* Navegador, usando a versão web do Expo.
+
 
 ---
 
