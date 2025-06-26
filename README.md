@@ -47,8 +47,8 @@ Este aplicativo está publicado no Expo e pode ser executado em qualquer disposi
 2. Abra o Expo Go e escaneie o QR Code gerado pela publicação  
    ou acesse diretamente o link abaixo:
 
-**[Abrir no Expo Go]([https://expo.dev/@SEU_USUARIO/SEU_APP](https://expo.dev/accounts/anakferraro/projects/my-new-project
-))**  
+[Abrir no Expo Go]([ https://expo.dev/@SEU_USUARIO/SEU_APP](https://expo.dev/accounts/anakferraro/projects/my-new-project
+))
 ---
 
 ## Como usar
