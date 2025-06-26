@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "host": "tunnel",
+    "android": {
+      "package": "com.anakferraro.mynewproject"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a1d22b4f-3bd7-44db-9326-0de1c86aedef"
+      }
+    },
+    "owner": "anakferraro",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a1d22b4f-3bd7-44db-9326-0de1c86aedef"
+    },
+    "ios": {}
+  }
+}
